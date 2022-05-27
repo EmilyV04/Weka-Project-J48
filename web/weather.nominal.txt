@@ -1,0 +1,23 @@
+<div>@relation weather.symbolic</div>
+<div><br></div>
+<div>@attribute outlook {sunny, overcast, rainy}</div>
+<div>@attribute temperature {hot, mild, cool}</div>
+<div>@attribute humidity {high, normal}</div>
+<div>@attribute windy {TRUE, FALSE}</div>
+<div>@attribute play {yes, no}</div>
+<div><br></div>
+<div>@data</div>
+<div>sunny,hot,high,FALSE,no</div>
+<div>sunny,hot,high,TRUE,no</div>
+<div>overcast,hot,high,FALSE,yes</div>
+<div>rainy,mild,high,FALSE,yes</div>
+<div>rainy,cool,normal,FALSE,yes</div>
+<div>rainy,cool,normal,TRUE,no</div>
+<div>overcast,cool,normal,TRUE,yes</div>
+<div>sunny,mild,high,FALSE,no</div>
+<div>sunny,cool,normal,FALSE,yes</div>
+<div>rainy,mild,normal,FALSE,yes</div>
+<div>sunny,mild,normal,TRUE,yes</div>
+<div>overcast,mild,high,TRUE,yes</div>
+<div>overcast,hot,normal,FALSE,yes</div>
+<div>rainy,mild,high,TRUE,no</div>
